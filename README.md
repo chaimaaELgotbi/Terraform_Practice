@@ -10,4 +10,22 @@ You can also install Terraform using Windows Powershell using the choco command:
 choco install terraform
 ```
 
-https://cdn-images-1.medium.com/max/800/1*mAxdNivyLFsryoYq9TFlpQ.png
+![image](https://github.com/user-attachments/assets/cb8afdae-3f10-456a-a59b-fcf4482828d7)
+![image](https://github.com/user-attachments/assets/874670d9-3fe9-4116-8649-0c7713720e8d)
+
+Next, we need to install AWS CLI:
+
+```
+choco install awscli -y
+
+```
+
+![image](https://github.com/user-attachments/assets/36ffac49-0744-4c80-9e0f-329f41a53dc4)
+
+To check the version tape:
+```
+aws --version
+
+```
+
+![image](https://github.com/user-attachments/assets/31f9daaa-f17b-4170-8ad0-883ed3cd2d27)
