@@ -29,3 +29,15 @@ aws --version
 ```
 
 ![image](https://github.com/user-attachments/assets/31f9daaa-f17b-4170-8ad0-883ed3cd2d27)
+
+Go to your AWS interface and generate a key access:
+![image](https://github.com/user-attachments/assets/72e44a49-6fd8-4e24-8c19-fb342b68b08b)
+
+Once the credentials have been created for the user we can access it using CLI.
+Open Gitbash or any other terminal and follow the below steps:
+
+- Tape this cmd:
+```
+aws cinfigure
+```
+![image](https://github.com/user-attachments/assets/dc54c9b3-4138-4592-8015-bad0c7981edd)
