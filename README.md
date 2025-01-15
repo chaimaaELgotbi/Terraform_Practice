@@ -42,5 +42,12 @@ Open Gitbash or any other terminal and follow the below steps:
 aws configure
 ```
 ![image](https://github.com/user-attachments/assets/dc54c9b3-4138-4592-8015-bad0c7981edd)
+
 Copy and paste your access key and secret. Enter the region code if you are using a different region
 
+1. Create your working folder:
+I have chosen Terraform Practice
+
+2. Create "provider.tf":
+This file where we are going to define the cloud provider in our case we are using "AWS".
+If you want to use another cloud provider such as GCP or Azure, you need to change this.
