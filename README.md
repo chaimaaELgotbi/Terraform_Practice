@@ -1,8 +1,10 @@
 # Terraform in practice
 In this article, we will document our work in Terrfaorm using AWS as our cloud provider.
 We are going to split the tasks each one in section 
+
+## First step: set uo the environment
 To do the tasks first we need to download and install Terraform on Windows.
-You can also install Terraform using Windows Powershell using the choco command:
+Install Terraform using Windows Powershell use the choco command:
 ```
 
 # Open the PowerShell as admin and run the below command (make sure to install choco package on windows.)
@@ -45,9 +47,30 @@ aws configure
 
 Copy and paste your access key and secret. Enter the region code if you are using a different region
 
+
+## second step: Create the Infrastructure
+
 1. Create your working folder:
+
 I have chosen Terraform Practice
 
 2. Create "provider.tf":
+
 This file where we are going to define the cloud provider in our case we are using "AWS".
 If you want to use another cloud provider such as GCP or Azure, you need to change this.
+
+```
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+# Configure the AWS Provider
+provider "aws" {
+  region = var.aws_region
+}
+``` 
