@@ -80,9 +80,17 @@ We are ready to init:
 
 
 3. Create "vpc.tf":
-check the code in the VPC file here some parametrs expliniation:
+check the code in the VPC file here some parameters expliniation:
 
 - cidr_block: 10.0.0.0/16 allows you to use the IP address that start with "10.0.X.X". There are 65,536 IP addresses are ready to use.
 - instance_tenancy: if it is true, your ec2 will be the only instance in an AWS physical hardware. Sounds good but expensive.
 
 - map_public_ip_on_launch: This is so important. The only difference between private and public subnet is this line. If it is true, it will be a public subnet, otherwise private.
+
+- add the Internet Gateway:
+if you want to create a network.tf file, for my case i added the following on the vpc.tf file
+It enables your vpc to connect to the internet
+
+-  Create Custom Route Table for public subnet.
+
+- Associate CRT and Subnet
