@@ -96,6 +96,7 @@ It enables your vpc to connect to the internet
 - Associate CRT and Subnet
 
 4. Create a "security.tf":
+
 we want in EC2 Ubuntu have Internet access, there must be incoming access: ICMP, TCP/22, 80, 443, and any outgoing access.
 And on EC2 CentOS should not have access to the Internet, but must have outgoing and incoming access: ICMP, TCP/22, 80, 443 only on the local network where EC2 Ubuntu, EC2 CentOS is located.
 
