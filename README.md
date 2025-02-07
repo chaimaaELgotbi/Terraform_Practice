@@ -104,4 +104,12 @@ check the code in the Security file
 5. Create a "variables.tf"
 In this file i will the difine the region i am going to work in and the AMI variables, also i am going to designe the avabality zones and the user name for my ubuntu.
 
-6. 
+6. Create a "instance.tf
+We have created lots of components and now we will create an EC2.
+I want to connect my ec2, so i need a key-pair. Later, i will create it.
+
+7. Create a key-pair
+you can generate a ssh key from aws
+![image](https://github.com/user-attachments/assets/54d0ea4a-b26e-46d7-b831-415f0f60d9c8)
+check the code on instance.tf
+
