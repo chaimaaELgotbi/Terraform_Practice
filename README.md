@@ -113,3 +113,7 @@ you can generate a ssh key from aws
 ![image](https://github.com/user-attachments/assets/54d0ea4a-b26e-46d7-b831-415f0f60d9c8)
 check the code on instance.tf
 
+8. Create an "output.tf2
+
+9. Create a "nginix.sh"
+
