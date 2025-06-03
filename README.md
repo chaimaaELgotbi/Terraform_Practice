@@ -122,3 +122,19 @@ check the code on instance.tf
 
 9. Create a "nginix.sh"
 
+Now we are going to excute Terraform basic Commands:
+
+```
+
+terraform plan
+terraform apply
+
+```
+Here is the out put how it looks like:
+
+![image](https://github.com/user-attachments/assets/bcdeee72-508c-4291-9681-67ec381057e9)
+
+![image](https://github.com/user-attachments/assets/c85b9a7a-74bc-4dc8-8fe0-0b4b403e8a33)
+
+
+
