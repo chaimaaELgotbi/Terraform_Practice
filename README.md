@@ -132,9 +132,9 @@ terraform apply
 ```
 Here is the out put how it looks like:
 
-             ![image](https://github.com/user-attachments/assets/bcdeee72-508c-4291-9681-67ec381057e9)
+ ![image](https://github.com/user-attachments/assets/bcdeee72-508c-4291-9681-67ec381057e9)
 
-             ![image](https://github.com/user-attachments/assets/c85b9a7a-74bc-4dc8-8fe0-0b4b403e8a33)
+  ![image](https://github.com/user-attachments/assets/c85b9a7a-74bc-4dc8-8fe0-0b4b403e8a33)
 
 Go to your web bowser and tape  http:your_ip_adresse and here is your output:
 
